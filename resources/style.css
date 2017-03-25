@@ -1,0 +1,92 @@
+header {
+  text-align: right;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid;
+  padding-bottom: 50px;
+}
+
+  .flex-item {
+  margin: 10px;
+  color: MediumAquamarine;
+  }
+        span {
+            padding-left: 5px;
+        }
+nav {
+   display: inline-block;
+   text-align: justify;
+   min-width: 500px;
+   text-align: center;
+   word-spacing: 30px;
+
+}
+
+img {
+  position: absolute;
+  left: 2px;
+}
+span {
+  position: absolute;
+  left: 80px;
+  paddng-top: 500px;
+}
+
+/*container with content information*/
+
+
+.container {
+    display: flex;
+    column-count: 3;
+}
+
+p.test {
+    width: 34em;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+    vertical-align: text-top;
+}
+
+
+p.test2 {
+    width: 37em;
+    border: 2px solid #000000;
+    word-wrap: break-word;
+    vertical-align: text-middle
+}
+
+p.test3 {
+    width: 37em;
+    border: 2px solid #000000;
+    word-wrap: break-word;
+    vertical-align: text-bottom;
+}
+
+p.test4 {
+    width: 240;
+    width: 37em;
+    border: 2px solid #000000;
+    word-wrap: break-word;
+    vertical-align: text-bottom;
+}
+
+.column.large {
+  width: 630px;
+  column-count: 3;
+}
+
+.column.medium {
+  width: 300px;
+  column-count: 3;
+}
+
+.column.small {
+  width: 240px;
+  column-count: 3;
+}
+
+#1, #2 {
+  float: left;
+  width: 49%;
+}
