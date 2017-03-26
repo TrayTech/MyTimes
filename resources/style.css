@@ -7,19 +7,19 @@ header {
   padding-bottom: 50px;
 }
 
-  .flex-item {
+  .logo {
   margin: 10px;
   color: MediumAquamarine;
   }
         span {
-            padding-left: 5px;
+            padding-left:  5px;
         }
 nav {
    display: inline-block;
-   text-align: justify;
-   min-width: 500px;
    text-align: center;
+   min-width: 500px;
    word-spacing: 30px;
+   padding-top: 20px;
 
 }
 
@@ -30,63 +30,99 @@ img {
 span {
   position: absolute;
   left: 80px;
-  paddng-top: 500px;
+  padding-top: 20px;
 }
+
+/*containter with image infomation*/
+
+
 
 /*container with content information*/
 
+.maincontainer {
+   display: flex;
+   justify-content: space-between;
 
-.container {
-    display: flex;
-    column-count: 3;
 }
 
-p.test {
-    width: 34em;
-    border: 1px solid #000000;
-    word-wrap: break-word;
-    vertical-align: text-top;
+.column-large {
+width: 630px;
+word-wrap: break-word;
+}
+
+.lead-story {
+padding-top: 330px;
+}
+
+.stories {
+display: flex;
+}
+
+.story1 {
+flex: 1;
+}
+.story2 {
+flex: 1;
+}
+
+.column-medium {
+width: 300px;
+order: 2px solid #000000;
+word-wrap: break-word;
+
+}
+.story2-column2 {
+padding-top: 300px;
+
+
 }
 
 
-p.test2 {
-    width: 37em;
-    border: 2px solid #000000;
-    word-wrap: break-word;
-    vertical-align: text-middle
+.column-small {
+width: 240px;
+padding-top: 250px;
+}
+.story1-column3 {
+
 }
 
-p.test3 {
-    width: 37em;
-    border: 2px solid #000000;
-    word-wrap: break-word;
-    vertical-align: text-bottom;
+.image-container {
+    max-width: 600px;
+   display: -webkit-flex;
+   display: flex;
 }
 
-p.test4 {
-    width: 240;
-    width: 37em;
-    border: 2px solid #000000;
-    word-wrap: break-word;
-    vertical-align: text-bottom;
+
+.imgContainer {
+        width: 100%;
+    }
+
+.image-fallseason {
+
+  max-width: 100%;
+  position: absolute;
+  bottom: 610px;
 }
 
-.column.large {
-  width: 630px;
-  column-count: 3;
+.image-cookie {
+max-width: 100%;
+position: absolute;
+bottom: 630px;
+
+  }
+
+.image-catceo {
+  max-width: 100%;
+  position: absolute;
+  bottom: 300px;
 }
 
-.column.medium {
-  width: 300px;
-  column-count: 3;
-}
 
-.column.small {
-  width: 240px;
-  column-count: 3;
-}
 
-#1, #2 {
-  float: left;
-  width: 49%;
+
+
+.footer {
+margin: 10px;
+color: MediumAquamarine;
+padding-top: 50px;
 }
