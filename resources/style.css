@@ -52,6 +52,9 @@ word-wrap: break-word;
 
 .lead-story {
 padding-top: 330px;
+font-family: Georgia;
+font-size: 17px;
+color: black;
 }
 
 .stories {
@@ -60,9 +63,18 @@ display: flex;
 
 .story1 {
 flex: 1;
+padding-top: 10px;
+font-family: Georgia;
+font-size: 17px;
+color: black;
+padding-bottom: 400px;
 }
 .story2 {
 flex: 1;
+padding-top: 10px;
+font-family: Georgia;
+font-size: 17px;
+color: black;
 }
 
 .column-medium {
@@ -73,21 +85,36 @@ word-wrap: break-word;
 }
 .story2-column2 {
 padding-top: 300px;
-
+font-family: Georgia;
+font-size: 17px;
+color: black;
 
 }
-
+.story1-column3 {
+padding-top: 100px;
+font-family: Georgia;
+font-size: 17px;
+color: black;
+}
 
 .column-small {
 width: 240px;
-padding-top: 250px;
-}
-.story1-column3 {
 
 }
+
+.story1-column3{
+padding-top: 250px;
+font-family: Georgia;
+font-size: 17px;
+color: black;
+}
+
+
+
+
 
 .image-container {
-    max-width: 600px;
+  max-width: 600px;
    display: -webkit-flex;
    display: flex;
 }
@@ -97,11 +124,36 @@ padding-top: 250px;
         width: 100%;
     }
 
-.image-fallseason {
+.image-mainstory {
 
   max-width: 100%;
   position: absolute;
   bottom: 610px;
+}
+
+.image-fallseason {
+
+  max-width: 100%;
+  position: absolute;
+  left: 2px;
+  top: 910px;
+}
+
+
+.image-cameraman {
+
+  max-width: 100%;
+  position: absolute;
+  left: 350px;
+  top: 900px;
+}
+
+
+
+.image-catceo {
+  max-width: 100%;
+  position: absolute;
+  bottom: 300px;
 }
 
 .image-cookie {
@@ -111,12 +163,6 @@ bottom: 630px;
 
   }
 
-.image-catceo {
-  max-width: 100%;
-  position: absolute;
-  bottom: 300px;
-}
-
 
 
 
@@ -124,5 +170,5 @@ bottom: 630px;
 .footer {
 margin: 10px;
 color: MediumAquamarine;
-padding-top: 50px;
+padding-bottom: 50px;
 }
